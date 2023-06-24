@@ -62,7 +62,7 @@ stickman.addEventListener("click",function(){
                 document.querySelector(".no").classList.add("d-none")
                 setTimeout(() => {
                     location.reload();
-                }, 2500);
+                }, 3000);
             }
             document.querySelector(".no").onclick = function(){
                 document.querySelector(".try-again p").style.fontSize = "30px"
